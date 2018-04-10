@@ -1,0 +1,67 @@
+body {
+  background-color: #ffecce;
+  border-left: 170px solid #686668;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #edeef2;
+  text-decoration: none;
+}
+/* All tag selectors above this line please */
+.every-section {
+  background-color: #ffecce;
+  border-top: 10px solid;
+  border-bottom: 10px solid;
+  border-right: 10px solid;
+  border-left: 0px solid;
+  border-color: #686668;
+  margin: 4px 6px 4px 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.navigation-item {
+  margin-top: 15px;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hr-color {
+  border-color: #ffecce;
+}
+
+.text-extrasmall {
+  font-size: 10px;
+}
+/* All ID selector below this line please */
+#topBar {
+  background-color: #686668;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+#aboutDiv {
+  margin-top: 140px;
+}
+
+#amitDiv {
+  padding: 20px;
+  text-align: center;
+  color: #ffecce;
+  font-size: 55px;
+  font-family: "Tinos", serif;
+}
+
+#bottomBar {
+  background-color: #686668;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
