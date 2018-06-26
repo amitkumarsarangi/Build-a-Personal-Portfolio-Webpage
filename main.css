@@ -1,6 +1,77 @@
 * {margin: 0; border: 0; padding: 0; outline: none;}
 html, body {
-    background-color: #000000;
-    font-family: 'Monoton', cursive;
+    background-color: rgb(249, 247, 237);
     font-family: 'Cutive Mono', monospace;
 }
+
+#navbar {
+	padding: 5px 20px;
+	min-width: 150px;
+	background-color: rgba(249, 120, 8, 0.95);
+	border-bottom-left-radius: 20px;
+	position: fixed;
+	top: 0px;
+	right: -240px;
+	transition: all 0.3s;
+	box-shadow: -1px 1px 2px rgb(249, 247, 237);
+}
+	#navbar:hover {
+		top: 0;
+		right: 0;
+	}
+	#navbar:before {
+		content: "<";
+		font-family: 'Monoton', cursive;
+		color: rgba(249, 120, 8, 0.95);
+		font-size: 55px;
+		position: absolute;
+		top: -15px;
+		left: -40px;	
+		text-shadow: -1px 1px 2px rgb(249, 247, 237);
+	}
+	#navbar a {
+		margin: 10px 0;
+		font-family: 'Monoton', cursive;
+		text-decoration: none;
+		color: rgb(249, 247, 237);
+		font-weight: 100;
+		font-size: 40px;
+		text-align: left;
+		display: block;
+	}
+#welcome-section {
+	width: 100vw;
+	height: 100vh;
+	font-family: 'Monoton', cursive;
+	position: relative;
+}
+	#welcome-section h1, #welcome-section h2 {
+		font-size: 155px;
+		font-weight: 100;
+		letter-spacing: 15px;
+		color: rgb(249, 120, 8);
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -70%);
+	}
+	#welcome-section h2 {
+		font-size: 45px;
+		letter-spacing: 10px;
+		transform: translate(-50%, 10%);
+	}
+#projects {
+	background-color: rgb(249, 120, 8);
+}
+.footer {
+	margin-top: 20px;
+	padding: 20px 0;
+	width: 100vw;
+	color: rgb(249, 120, 8);
+	text-align: center;
+	border-top: 1px solid rgb(249, 120, 8);
+}
+	.footer a {
+		color: rgb(249, 120, 8);
+		text-decoration: none;
+	}
