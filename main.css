@@ -155,6 +155,15 @@ html, body {
 				color: rgb(249, 247, 237);
 				background-color: rgb(249, 120, 8);
 			}
+			#contact-section form div textarea::-webkit-input-placeholder, #contact-section form div input::-webkit-input-placeholder {
+				color: rgba(249, 120, 8, 0.5);
+			}
+			#contact-section form div textarea::-moz-placeholder, #contact-section form div input::-moz-placeholder {
+				color: rgba(249, 120, 8, 0.5);
+			}
+			#contact-section form div textarea::-ms-input-placeholder, #contact-section form div input::-ms-input-placeholder {
+				color: rgba(249, 120, 8, 0.5);
+			}
 .footer {
 	margin-top: 20px;
 	padding: 20px 0;
